@@ -27,5 +27,5 @@ app.get('/about', (request, response) => {
 });
 
 app.listen(3000, () => {
-    console.log(`Escuchando peticiones en el puerto ${puerto}`);
+    console.log(`Escuchando peticiones en el puerto ${port}`);
 })
